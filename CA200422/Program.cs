@@ -54,6 +54,7 @@ namespace CA200422
                     cEgyEgeszEgy++;
             }
 
+            /*
             halak.Add(new Hal()
             {
                 Alfaj = 0,
@@ -61,6 +62,7 @@ namespace CA200422
                 Suly = 35,
                 Eletter = new Eletter(350, 400),
             });
+            */
 
             Console.WriteLine($"Ragadozók száma:  {cRagadozo} db\nNövényevők száma: {halak.Count - cRagadozo} db");
             Console.WriteLine($"Legnagyobb hal súlya: {halak[maxSulyI].Suly} Kg");
